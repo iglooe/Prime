@@ -18,9 +18,11 @@ input[type="text"]:focus {
   border-color: #38bdf8;
   outline: none;
 }
+
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background: #0f172a;
   padding: 0 16px;
@@ -114,6 +116,7 @@ header h1 {
   margin-bottom: 16px;
   font-family: "Montserrat", sans-serif;
 }
+
 .App.shake {
   animation: shake 0.3s ease-in-out;
 }
@@ -123,13 +126,13 @@ header h1 {
     transform: translateX(0) translateY(0);
   }
   25% {
-    transform: translateX(-5px) translateY(-5px);
+    transform: translateX(-2px) translateY(-5px);
   }
   50% {
-    transform: translateX(5px) translateY(5px);
+    transform: translateX(2px) translateY(5px);
   }
   75% {
-    transform: translateX(-5px) translateY(-5px);
+    transform: translateX(-2px) translateY(-5px);
   }
   100% {
     transform: translateX(0) translateY(0);
